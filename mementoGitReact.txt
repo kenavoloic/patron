@@ -1,0 +1,12 @@
+git init
+touch .gitignore
+nano .gitignore
+touch README.md
+git add .
+git status
+git commit -m "Origines du monde"
+git status
+git remote add origin https://github.com/kenavoloic/experimentations.git
+git push -u origin master
+
+Par la suite :

@@ -1,0 +1,35 @@
+{
+  "name": "patron",
+  "version": "1.0.0",
+  "description": "Patron pour React.js",
+  "main": "./src/index.js",
+  "private":true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "engines": {
+      "node": ">= 6.0.0",
+      "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenavoloic/patron.git"
+  },
+  "author": {
+      "name":"Kenavo Loïc",
+      "email":"kenavoloic@gmail.com",
+      "url":"https://github.com/kenavoloic/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenavoloic/patron/issues"
+  },
+  "homepage": "https://github.com/kenavoloic/patron#readme"
+}
